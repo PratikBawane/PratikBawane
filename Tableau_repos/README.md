@@ -1,8 +1,6 @@
 Thanks for sharing the **`Tableau_training_workbook.pdf`**. Based on the content and assuming it covers training examples, dashboards, and visual analytics use-cases built in Tableau, here is a professional `README.md` you can use for your GitHub repository:
 
----
 
-```markdown
 # 📊 Tableau Training Workbook
 
 This repository contains a curated **Tableau Training Workbook**, created to practice and demonstrate data visualization skills using Tableau. It includes real-world dashboard examples and workbook activities to explore key Tableau functionalities such as filters, calculated fields, parameters, and interactive charts.
