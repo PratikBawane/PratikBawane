@@ -51,4 +51,6 @@ This project is intended for educational purposes only. All dashboards and scree
 Feel free to connect with me on LinkedIn: <a href = "https://www.linkedin.com/in/pratik-bawane-5529901b9/">LinkedIn</a> 
 or explore other data analytics projects on my GitHub profile! 
 
+<a href = "https://github.com/PratikBawane/PratikBawane/blob/b70da6efc5ded384186de7bdf2ab6c1e4643cf61/Tableau_repos/Tableau_training_workbook.twbx">Tableau_workbook download</a> 
+
 ``` 
