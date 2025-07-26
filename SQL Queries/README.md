@@ -42,5 +42,5 @@ HAVING COUNT(date_diff) >= 3;
 💡This small yet powerful use-case shows how SQL window functions can be leveraged to solve temporal data challenges efficiently! 
 
 🔗 Let me know your thoughts, or if you'd solve it differently! 
-You can connect with me on LinkedIn: <a href="https://www.linkedin.com/in/pratik-bawane-5529901b9/">LinkedIn</a> <br> 
+You can connect with me on LinkedIn: <a href="https://www.linkedin.com/in/pratik-bawane-5529901b9/" target="_blank">LinkedIn profile</a> <br> 
 hashtag#SQL hashtag#MySQL hashtag#WindowFunctions hashtag#DataEngineering hashtag#ConsecutiveLogins hashtag#SQLChallenge hashtag#LearningByDoing hashtag#DataAnalytics hashtag#CodeWithMe hashtag#LinkedInLearning
