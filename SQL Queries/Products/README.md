@@ -44,5 +44,6 @@ Being able to reshape your data like this is a key skill for:
 🔄 Data transformation without needing Excel! 
 
 Would love to hear how you would handle it with dynamic SQL or across more months! 
+Plz connect with me on LinkedIn: <a href="https://www.linkedin.com/in/pratik-bawane-5529901b9/" target="_blank">Click to connect</a> <br> 
 
 #SQL #SQLQuery #DataAnalytics #Pivot #CaseWhen #SQLAggregation #LearningByDoing #DataEngineering #SQLChallenge #LinkedInLearning
