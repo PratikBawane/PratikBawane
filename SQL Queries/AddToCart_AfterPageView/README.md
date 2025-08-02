@@ -20,24 +20,17 @@ Write a SQL query to find the UserIDs of all customers who have performed an 'Ad
 ## 💻 SQL Query Solution: 
 
 ```
-WITH Page_View_Events AS (
-  SELECT UserID, ActionType, ActionTimestamp
-  FROM UserActivity
-  WHERE ActionType = 'Page_View'
-),
+with Page_View_Events as (
+select UserID, ActionType, ActionTimestamp from UserActivity where ActionType = 'Page_View' 
+),  
 
-Add_to_Cart AS (
-  SELECT UserID, ActionType, ActionTimestamp
-  FROM UserActivity
-  WHERE ActionType = 'Add_to_Cart'
+Add_to_Cart as
+(
+select UserID, ActionType, ActionTimestamp from UserActivity where ActionType = 'Add_to_Cart'
 )
 
-SELECT DISTINCT UserID
-FROM Page_View_Events p
-JOIN Add_to_Cart a
-  ON p.UserID = a.UserID
-  AND TO_VARCHAR(p.ActionTimestamp, 'DD-MM-YYYY') = TO_VARCHAR(a.ActionTimestamp, 'DD-MM-YYYY')
-WHERE a.ActionTimestamp > p.ActionTimestamp;
+select distinct p.UserID from Page_View_Events p join Add_to_Cart a on p.UserID = a.UserID and date_format(p.ActionTimestamp, '%d-%m-%y') = date_format(a.ActionTimestamp, '%d-%m-%y')
+where a.ActionTimestamp > p.ActionTimestamp; 
 ```
 
 🧠 Key Takeaways:
