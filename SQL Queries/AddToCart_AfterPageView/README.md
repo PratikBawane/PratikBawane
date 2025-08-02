@@ -40,6 +40,6 @@ where a.ActionTimestamp > p.ActionTimestamp;
 ✅ Challenges like these teach temporal event analysis, a critical skill for BI, data science, and engineering roles. 
 ✅ This logic can directly power features like funnel analysis in e-commerce! 
 
-🔗 Please connect with me here on LinkedIn: <a href="https://www.linkedin.com/in/pratik-bawane-5529901b9/">Click to connect<a/> <br> 
+🔗 Please connect with me here on LinkedIn: <a href="https://www.linkedin.com/in/pratik-bawane-5529901b9/" target="_blank">Click to connect<a/> <br> 
 
 😊 Would love to hear your take on this, if you've an alternative approach please share it with the connections! 
